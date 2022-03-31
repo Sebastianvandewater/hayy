@@ -1,5 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.navbar {
+	background: #2E3D98;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
 
 
