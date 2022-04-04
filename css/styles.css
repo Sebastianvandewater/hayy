@@ -55,9 +55,6 @@ body a {
   height: 150px;
 }
 
-.short-teaser {
-	
-}
 
 .spacer-3 {
 	 background: transparent;
@@ -75,8 +72,56 @@ body a {
   height: 20px;
 }
 
+
 .beers img:hover {
 	opacity: 0.9;
+}
+
+.go-to {
+	border: none;
+	color: #FFFFFF;
+	background-color: #2E3D98;
+	width: 150px;
+	height: 30px;
+}
+
+.container-instagram {
+	height: 500px;
+}
+
+.photo-1 {
+	position: relative;
+	top: 100px;
+	left: 100px;
+	z-index: 1;
+	opacity: 0.5;
+}
+
+.photo-1:hover {
+	opacity: 1;
+}
+
+.photo-2 {
+	position: relative;
+	top: 50px;
+	z-index: 3;
+	opacity: 0.5;
+}
+
+.photo-2:hover {
+	opacity: 1;
+}
+
+.photo-3 {
+	position: relative;
+	top: 100px;
+	right: 100px;
+	z-index: 2;
+	opacity: 0.5;
+}
+
+.photo-3:hover {
+	opacity: 1;
 }
 
 .spacer-5 {
@@ -85,4 +130,37 @@ body a {
   margin: 0;
   border-style: none;
   height: 150px;
+}
+.container-footer {
+	width: 100%;
+	background: #2E3D98;
+	height: 400px;
+	color: #FFFFFF;
+}
+
+.spacer-beer {
+	 background: transparent;
+  color: transparent;
+  margin: 0;
+  border-style: none;
+  height: 100px;
+  top: 0;
+}
+
+.container-beer {
+	height: 1450px;
+}
+
+.product-1 {
+	position: relative;
+}
+
+.product-2 {
+	position: relative;
+	float: right;
+	top: 300px;
+}
+
+.product-3 {
+	position: relative;
 }
