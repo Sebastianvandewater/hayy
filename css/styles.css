@@ -7,24 +7,6 @@
 	width: 100%;
 	overflow: hidden;
 	position: fixed;
+	text-decoration: none;
 }
 
-.buttons-navbar {
-	text-align: right;
-}
-.spacer-1 {
-	 background: transparent;
-  color: transparent;
-  margin: 0;
-  border-style: none;
-  height: 150px;
-  top: 0;
-}
-
-.spacer-2 {
-	 background: transparent;
-  color: transparent;
-  margin: 0;
-  border-style: none;
-  height: 150px;
-}
