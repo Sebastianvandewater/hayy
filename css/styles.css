@@ -9,7 +9,8 @@
 	position: fixed;
 }
 
-.buttons-navbar {
+.buttons-navbar a {
+	color:#FFFFFF;
 	text-align: right;
 	text-decoration: none
 }
