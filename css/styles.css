@@ -74,7 +74,7 @@ body a {
 
 
 .beers img:hover {
-	opacity: 0.9;
+	opacity: 0.8;
 }
 
 .go-to {
@@ -91,10 +91,10 @@ body a {
 
 .photo-1 {
 	position: relative;
-	top: 100px;
-	left: 100px;
+	top: 75px;
+	left: 40px;
 	z-index: 1;
-	opacity: 0.5;
+	
 }
 
 .photo-1:hover {
@@ -105,7 +105,7 @@ body a {
 	position: relative;
 	top: 50px;
 	z-index: 3;
-	opacity: 0.5;
+	
 }
 
 .photo-2:hover {
@@ -114,10 +114,10 @@ body a {
 
 .photo-3 {
 	position: relative;
-	top: 100px;
-	right: 100px;
+	top: 75px;
+	right: 40px;
 	z-index: 2;
-	opacity: 0.5;
+	
 }
 
 .photo-3:hover {
