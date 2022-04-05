@@ -64,6 +64,14 @@ body a {
   height: 150px;
 }
 
+.container-teaser {
+	text-align: center;
+	height: 300px;
+	padding: 50px;
+	background: #FFB24D;
+	box-shadow: 10px 10px 10px;
+}
+
 .spacer-4 {
 	 background: transparent;
   color: transparent;
@@ -83,6 +91,7 @@ body a {
 	background-color: #2E3D98;
 	width: 150px;
 	height: 30px;
+	
 }
 
 .container-instagram {
@@ -148,19 +157,9 @@ body a {
 }
 
 .container-beer {
-	height: 1450px;
+	height: 1080px;
+	
 }
 
-.product-1 {
-	position: relative;
-}
 
-.product-2 {
-	position: relative;
-	float: right;
-	top: 300px;
-}
 
-.product-3 {
-	position: relative;
-}
