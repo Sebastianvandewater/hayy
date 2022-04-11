@@ -10,34 +10,24 @@ body a {
 	color: #2E3D98;
 	text-decoration: none;
 }
-.navbar img {
-	float: left;
-	margin-left: 50px;
-}
-
-.buttons-navbar li {
-	float: right;
-	margin: 10px;
-	padding-right: 50px;
-}
 
 .navbar {
-	background: #2E3D98;
+	background-color: #2E3D98;
 	top: 0;
-	width: 100%;
-	overflow: hidden;
 	position: fixed;
-	z-index: 10;
-	
-	
-	
+	width: 100%;
+	z-index: 10
+}
+.navbar a {
+	color:#FFB24D;
+	text-decoration: none;
+	margin-right: 30px;
 }
 
-.buttons-navbar a {
-	color:#FFFFFF;
-	text-align: right;
-	text-decoration: none;
+.navbar a:hover {
+	color: white;
 }
+
 .spacer-1 {
 	 background: transparent;
   color: transparent;
@@ -64,12 +54,14 @@ body a {
   height: 150px;
 }
 
-.container-teaser {
-	text-align: center;
-	height: 300px;
-	padding: 50px;
-	background: #FFB24D;
-	box-shadow: 10px 10px 10px;
+.card-1 {
+	background-color: #FFB72E;
+	box-shadow: 7px 7px;
+}
+
+.btn-sm {
+	background-color: #2E3D98;
+	color: white;
 }
 
 .spacer-4 {
@@ -94,57 +86,13 @@ body a {
 	
 }
 
-.container-instagram {
-	height: 500px;
+.card-2 {
+	background-color: #2E3D98;
+	color: #FFB72E;
 }
 
-.photo-1 {
-	position: relative;
-	top: 75px;
-	left: 40px;
-	z-index: 1;
-	
-}
-
-.photo-1:hover {
-	opacity: 1;
-}
-
-.photo-2 {
-	position: relative;
-	top: 50px;
-	z-index: 3;
-	
-}
-
-.photo-2:hover {
-	opacity: 1;
-}
-
-.photo-3 {
-	position: relative;
-	top: 75px;
-	right: 40px;
-	z-index: 2;
-	
-}
-
-.photo-3:hover {
-	opacity: 1;
-}
-
-.spacer-5 {
-	 background: transparent;
-  color: transparent;
-  margin: 0;
-  border-style: none;
-  height: 150px;
-}
-.container-footer {
-	width: 100%;
-	background: #2E3D98;
-	height: 400px;
-	color: #FFFFFF;
+.card-2 a {
+	color: #FFB72E;
 }
 
 .spacer-beer {
@@ -152,14 +100,10 @@ body a {
   color: transparent;
   margin: 0;
   border-style: none;
-  height: 100px;
+  height: 135px;
   top: 0;
 }
 
-.container-beer {
-	height: 1080px;
-	
-}
 
 
 
