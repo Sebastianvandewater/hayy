@@ -53,7 +53,7 @@ body a {
   color: transparent;
   margin: 0;
   border-style: none;
-  height: 150px;
+  height: 200px;
 }
 
 
@@ -145,4 +145,16 @@ body a {
 	top: 50%;
 }
 
+.spacer-7 {
+	 background: transparent;
+  color: transparent;
+  margin: 0;
+  border-style: none;
+  height: 150px;
+}
+
+#locations {
+	background-color: #2E3D98;
+	color:#FFB24D;
+}
 
